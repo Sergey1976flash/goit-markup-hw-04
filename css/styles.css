@@ -48,22 +48,7 @@ img {
 }
 .logo-two {
     color:  #2E2F42;
-/*
-}
-.logo-three {
-    color:#4D5AE5;
-font-family: "Raleway", sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-margin-right: 76px
-}
-.logo-four { 
-color:#F4F4FD;
-*/
+
 }
 .navigation-list {
     display: inline-flex;
@@ -118,17 +103,29 @@ color:#404BBF;
 }
 /*SECTION 1*/
 
-.section-one {
-    background-color: #2e2f42;
-    text-align: center;
-    padding: 188px 0;
 
-} 
-.container .container-section-one {
+.hero  
+{
+        min-height: 600px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: var(--GREY, rgba(46, 47, 66, 0.70));
+        background-image: url(../images/people-office.svg);
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+        max-width: 1440px;
+        background-position: center center
+}
+ 
+ 
+.container .title {
     display: inline-flex;
     flex-wrap: wrap;
 }
-.section-main-text {
+.title {
     align-content: center;
     font-size: 56px;
     font-weight: 700;
@@ -162,12 +159,14 @@ gap: 10px;
 border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-max-width: 496px
+max-width: 496px;
+
 }
 .button:hover,
 .button:focus {
 background-color: #404BBF;
 }
+
 
 /*SECTION 2*/
 
