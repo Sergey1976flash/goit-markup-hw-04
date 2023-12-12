@@ -205,7 +205,10 @@ img {
         border-top-right-radius: 4px; 
         border-bottom-left-radius:4px;
       }
-  
+
+ .svg-icons {
+  padding-bottom: 8px;
+ }
 .list-header {
     color:#2E2F42;
     font-family: Roboto;
