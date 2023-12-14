@@ -402,7 +402,9 @@ img {
   .reviews-link:hover .reviews-icon,
   .reviews-link:focus .reviews-icon {
     fill: hotpink;
-  /*FOOTER 4*/
+  }
+ 
+    /*FOOTER 4*/
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
