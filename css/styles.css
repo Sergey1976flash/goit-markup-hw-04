@@ -112,13 +112,14 @@ img {
   flex-direction: column;
   justify-content: center;
   background: var(--GREY, rgba(46, 47, 66, 0.7));
-  background-image: url(../images/people-office.svg);
+  background-image: url(../images/people-office-1.jpg);
   background-repeat: no-repeat;
   color: #fff;
   text-align: center;
   max-width: 1440px;
   margin: 0 auto;
   background-position: center center;
+  background-size: cover;
  
 }
 
