@@ -366,6 +366,42 @@ img {
 .portfolio-text-cashless:hover {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);} 
 
+  .reviews-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  
+    margin-top: 8px;
+  }
+  .reviews-elem {
+    width: 40px;
+    height: 40px;
+  }
+  .reviews-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100%;
+    height: 100%;
+  
+    color: #f4f4fd;
+  
+    background-color: #4d5ae5;
+    border-radius: 50%;
+  }
+  .reviews-link:hover,
+  .reviews-link:focus {
+    background-color: #404bbf;
+  }
+  .reviews-icon {
+    fill: currentColor;
+  }
+  
+  .reviews-link:hover .reviews-icon,
+  .reviews-link:focus .reviews-icon {
+    fill: hotpink;
   /*FOOTER 4*/
 .footer {
   background-color: #2e2f42;
