@@ -401,7 +401,7 @@ img {
   
   .reviews-link:hover .reviews-icon,
   .reviews-link:focus .reviews-icon {
-    fill: hotpink;
+    fill:#31D0AA;
   }
  
     /*FOOTER 4*/
@@ -413,6 +413,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--CLOUD, #f4f4fd);
+  max-width: 264px;
+  /* padding-bottom: 100px;
+  padding-left: 156px; */
 }
 .logo-three {
   font-family: 'Raleway', sans-serif;
@@ -431,3 +434,7 @@ img {
 .logo-four {
   color: #f4f4fd;
 }
+/* .container .footer-text {
+  display: inline-flex;
+  flex-wrap: wrap;
+} */
