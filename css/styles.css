@@ -54,17 +54,18 @@ img {
 .logo-two {
   color: #2e2f42;
 }
-.navigation-list {
+.header-list {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
 }
-.navigation-container {
-  display: flex;
-
+.header-nav {
+  display: inline-flex;
   align-items: center;
-}
-.menu {
+
+  margin-right: auto;}
+
+.header-link {
   text-decoration: none;
   display: block;
   font-size: 16px;
@@ -74,9 +75,21 @@ img {
   color: #2e2f42;
   padding: 24px 0;
 }
-.menu:hover,
-.menu:focus {
+.header-link:hover,
+.header-link:focus {
   color: #404bbf;
+}
+.header-link.active {
+  color: #404bbf;
+}
+
+.header-link.active::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404BBF;
 }
 .contacts {
   font-style: normal;
