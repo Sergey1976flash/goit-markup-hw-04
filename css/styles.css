@@ -38,6 +38,7 @@ img {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+  
 }
 
 .logo-one {
@@ -125,7 +126,7 @@ img {
 /*SECTION 1*/
 
 .hero {
-  
+
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     background-repeat: no-repeat;
@@ -225,7 +226,7 @@ img {
         border-top-right-radius: 0px ; 
         border-top-right-radius: 4px; 
         border-bottom-left-radius:4px;
-        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);   
+       
       }
 
  .svg-icons {
@@ -294,6 +295,7 @@ img {
 
 .team-item {
   background-color: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 .team-title-header {
   color: #2e2f42;
@@ -491,7 +493,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 
   margin-top: 8px;
 }
@@ -522,5 +524,9 @@ img {
 
 .socials-link:hover .socials-icon,
 .socials-link:focus .socials-icon {
-  fill: #f4f4fd ;
+  fill: #F4F4FD ;
 }
+.container-foot 
+{ display: flex;
+  align-items: baseline
+  } 
