@@ -125,21 +125,17 @@ img {
 /*SECTION 1*/
 
 .hero {
-  min-height: 600px;
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg); 
-  background-image: url(../images/img-name.jpg);
-  background-repeat: no-repeat;
-  color: #fff;
-  text-align: center;
-  max-width: 1440px;
-  margin: 0 auto;
-  background-position: center;
-  background-size: cover;
-
+  
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+  
 }
 
 .container .title {
