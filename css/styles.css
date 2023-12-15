@@ -422,9 +422,7 @@ img {
   .reviews-link:focus {
     background-color: #404bbf;
   }
-  .reviews-icon {
-    fill: currentColor;
-  }
+ 
   
   .reviews-link:hover .reviews-icon,
   .reviews-link:focus .reviews-icon {
