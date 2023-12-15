@@ -511,15 +511,13 @@ img {
   color: #4d5ae5;
 
   background-color: #4d5ae5;
-  border-radius: 50%;
+ 
 }
 .socials-link:hover,
 .socials-link:focus {
   background-color: #31d0aa;
 }
-.socials-icon {
-  fill: currentColor;
-}
+
 
 .socials-link:hover .socials-icon,
 .socials-link:focus .socials-icon {
