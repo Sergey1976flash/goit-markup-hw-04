@@ -308,7 +308,9 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
-
+.reviews-icon {
+  fill:#f4f4fd
+}
 .team-title-text {
   font-size: 16px;
 
