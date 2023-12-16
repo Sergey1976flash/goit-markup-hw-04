@@ -375,22 +375,6 @@ img {
   /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
 }
 
-.portfolio-list-header
-{
-  padding: 28px 0;
-
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.33;
-  letter-spacing: -0.02em;
-  text-transform: uppercase;
-  text-align: center;
-
-  border-radius: 0px 0px 15px 15px;
-  border: 1px solid rgba(17, 17, 17, 0.1);
-  border-top: none;
-  background: #fff;
-}
 .portfolio-item {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
