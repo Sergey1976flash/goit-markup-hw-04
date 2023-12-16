@@ -350,12 +350,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 40px 32px;
 
-  font-size: 14px;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
-  color: #fafafa;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 
   background: linear-gradient(
     165deg,
@@ -367,6 +367,8 @@ img {
 
   transform: translateY(100%);
   transition: transform 500ms ease-in;
+  background-color: #4d5ae5;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 .portfolio-item:hover .overlay {
   transform: translateY(0);
