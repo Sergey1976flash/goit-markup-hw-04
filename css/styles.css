@@ -469,30 +469,25 @@ img {
   
   }
  
-/*   
-  .reviews-link:hover .reviews-icon,
-  .reviews-link:focus .reviews-icon {
-    fill:#31D0AA;
-  } */
+
  
     /*FOOTER */
     
     .footer {
-      padding: 50px 0;
-      background-color: #1e1823;
+      padding: 100px 0;
+      background: #2E2F42;
     }
     .footer-top {
-      display: flex;
-      align-items: baseline;
+    
       margin-right: 120px 
     }
     .footer-text {
       width: 300px;
-      margin-right: auto;
-      font-size: 28px;
+
+    
       font-weight: 500;
       line-height: 1.21;
-      letter-spacing: -0.02em;
+      letter-spacing: 0.02em;
       color: #fff;
     }
     .footer-caption {
